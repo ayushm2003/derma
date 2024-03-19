@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine Usage Result</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="sub-heading">Medicine Usage</h2>
+    <!-- Display the medicine usage here -->
+    <p>
+      <!-- PHP code or JavaScript can be used to display the medicine usage -->
+      <!-- Example: -->
+      <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+          echo "Medicine usage: " . $_POST["medicines"];
+        }
+      ?>
+    </p>
+  </div>
+</body>
+</html>

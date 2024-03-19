@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disease Diagnosis Result</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="sub-heading">Predicted Disease</h2>
+    <!-- Display the predicted disease here -->
+    <p>
+      <!-- PHP code or JavaScript can be used to display the predicted disease -->
+      <!-- Example: -->
+      <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+          echo "Predicted disease: " . $_POST["symptoms"];
+        }
+      ?>
+    </p>
+  </div>
+</body>
+</html>
